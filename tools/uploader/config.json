@@ -1,0 +1,30 @@
+{
+    "bin": {
+        "path": "bin"
+    },
+    "general": {
+        "src_path": "http",
+        "dst_path": "http.NOLINKS",
+        "archive_file": "zoro.tar.gz"
+    },
+    "env": {
+        "stage": {
+            "sshpass": "",
+            "remote_user": "jenkins",
+            "remote_host": "web-1.zoro-eu-stg.local",
+            "remote_shared_path": "/var/www/zorotools/shared",
+            "remote_config_path": "/var/www/zorotools/configuration",
+            "remote_release_subpath": "/var/www/zorotools/releases",
+            "remote_target_path": "/var/www/zorotools/html"
+        },
+        "production": {
+            "sshpass": "",
+            "remote_user": "jenkins",
+            "remote_host": "web-1.zoro-eu-prod.local",
+            "remote_shared_path": "/var/www/zorotools/shared",
+            "remote_config_path": "/var/www/zorotools/configuration",
+            "remote_release_subpath": "/var/www/zorotools/releases",
+            "remote_target_path": "/var/www/zorotools/html"
+        }
+    }
+}

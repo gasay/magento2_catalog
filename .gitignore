@@ -1,0 +1,16 @@
+.DS_Store
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings
+atlassian*
+/nbproject
+/sitemap
+/.idea
+/.gitattributes
+/node_modules
+
+/*.*
+!.gitignore
+!/README.md

@@ -1,0 +1,26 @@
+{
+    "etc": {
+        "path": "etc/lemp"
+    },
+    "bin": {
+        "path": "bin"
+    },
+    "db": {
+        "file": "data/dump.zoro.sql"
+    },
+    "mongo": {
+        "dbname": "mongodb_zorotools_test",
+        "collection": "catalog_product_entity",
+        "file": "data/catalog_product_entity.json"
+    },
+    "composer": {
+        "file": "composer.json"
+    },
+    "code": {
+        "magento": "magento",
+        "plus": "etc/magento",
+        "vendor": "vendor",
+        "custom": "src",
+        "dest": "http"
+    }
+}
